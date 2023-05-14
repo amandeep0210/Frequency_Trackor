@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(144deg,#2d004d, #3517f9 50%,#0fe6f6);
+    /* background-color: #030c4a; */
+}
+*{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,92 @@
+import React from "react";
+import { Bar } from 'react-chartjs-2';
+import {
+  Chart as ChartJs,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  Tooltip,
+  Legend
+} from 'chart.js'
+
+ChartJs.register(
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  Tooltip,
+  Legend
+)
+
+const Histogram = ({ data }) => {
+  const labels = data.map((item)=>item.word);
+  const values = data.map((item)=>item.frequency);
+
+  const chartData = {
+    labels: labels,
+    datasets: [
+      {
+        label: "Frequency",
+        data: values,
+        backgroundColor: "rgba(103, 58, 183, 0.5)",
+        borderColor: 'rgba(103, 58, 183, 1)',
+        borderWidth: 1,
+        hoverBackgroundColor: 'rgba(103, 58, 183, 0.8)',
+        hoverBorderColor: 'rgba(103, 58, 183, 1)',
+      },
+    ]
+  }
+
+  const options = {
+    plugins: {
+      legend: {
+        display: true
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        ticks: {
+          stepSize: 1,
+          font: {
+            size: 12,
+            weight: 'bold',
+            family: "'Roboto', sans-serif",
+          },
+          color: 'rgba(0, 0, 0, 0.6)',
+        },
+        grid: {
+          drawBorder: false,
+          color: 'rgba(0, 0, 0, 0.1)',
+        },
+      },
+      x: {
+        ticks: {
+          font: {
+            size: 12,
+            weight: 'bold',
+            family: "'Roboto', sans-serif",
+          },
+          color: 'rgba(0, 0, 0, 0.6)',
+        },
+        grid: {
+          display: false,
+        },
+      }
+    },
+    animation: {
+      duration: 1500,
+      easing: 'easeOutQuart',
+    },
+    interaction: {
+      mode: 'index',
+      intersect: false,
+    },
+  }
+
+  return (
+    <div style={{ width: '100%', height: '300px', background: '#fff', borderRadius: '10px', boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)', overflow: 'hidden' }}>
+      <Bar data={chartData} options={options}/>
+    </div>)
+}
+
+export default Histogram;

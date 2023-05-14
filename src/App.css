@@ -1,0 +1,17 @@
+.foot{
+    margin-top:320px;
+}
+.appheader{
+    color : white;
+    font-Family : Helvetica;
+    font-Weight : bolder;
+    font-Size : 25px;
+    color: white;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    width: 100%;
+    padding : 10px;
+    margin-Bottom : 20px;
+}
+
+
