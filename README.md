@@ -114,7 +114,8 @@ This component has the following dependencies:
 
 # Output Screen:
 **ON LOAD:**
-![Screenshot (126)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/10ced90a-53a5-4616-a7d8-7b5563b1832b)
+![Screenshot (130)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/33af4ddc-aa02-4216-822d-1f033e494694)
+
 
 
 **ON CLICK:**
