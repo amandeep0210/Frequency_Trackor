@@ -1,5 +1,6 @@
 # Frequency_Trackor
-The Hosted link is attached below: teriiblyamandeep.netlify.app
+The Hosted link is attached below:
+[teriiblyamandeep.netlify.app](teriiblyamandeep.netlify.app)
 
 #  TERRIBLY TINY TALES Assignment
 
