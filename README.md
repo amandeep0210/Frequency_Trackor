@@ -118,7 +118,7 @@ This component has the following dependencies:
 
 
 
-**ON CLICK:**
+**ON SUBMIT:**
 ![Screenshot (127)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/6148c134-e4b8-4076-8162-92f469cd82c8)
 
 
