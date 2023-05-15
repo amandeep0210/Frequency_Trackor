@@ -110,3 +110,18 @@ This component has the following dependencies:
 * react
 * react-chartjs-2
 * chart.js
+
+
+# Output Screen:
+** ON LOAD: **
+![Screenshot (126)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/10ced90a-53a5-4616-a7d8-7b5563b1832b)
+
+** ON CLICK: **
+![Screenshot (127)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/6148c134-e4b8-4076-8162-92f469cd82c8)
+
+** ON EXPORT: **
+![Screenshot (128)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/3c7352a5-2958-486c-9b01-21da09b5a68c)
+
+
+
+
