@@ -114,16 +114,15 @@ This component has the following dependencies:
 
 # Output Screen:
 **ON LOAD:**
-![Screenshot (130)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/33af4ddc-aa02-4216-822d-1f033e494694)
-
+![Screenshot (131)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/0898e219-f479-4f8c-96a2-8735e3632667)
 
 
 **ON SUBMIT:**
-![Screenshot (127)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/6148c134-e4b8-4076-8162-92f469cd82c8)
+![Screenshot (132)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/e7b29c8d-3f4c-4570-aafd-7b159372875c)
 
 
 **ON EXPORT:**
-![Screenshot (128)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/3c7352a5-2958-486c-9b01-21da09b5a68c)
+![Screenshot (133)](https://github.com/amandeep0210/Frequency_Trackor/assets/76957483/db1b9783-b22f-4e6b-9f6d-ab49a259b406)
 
 
 
